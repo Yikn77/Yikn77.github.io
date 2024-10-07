@@ -1,0 +1,72 @@
+body{
+	font-family: Inria Sans;
+}
+h1{
+	background-color: #60a878;
+	color: white; 
+	text-align: center; 
+	padding: 18px;
+}
+header{
+	text-align: center;
+	position: sticky;
+	top:0;
+	margin: 30px;
+}
+a{
+	text-decoration: none;
+	background-color: #76b57f;
+	color: white;
+	padding: 12px;
+}
+a:hover{
+	background-color: #9dd4b1;
+	color: black;
+	box-shadow: 3px 3px 3px #76b57f;
+	text-shadow: 2px 2px 2px white;
+}
+table{
+	width: 80%;
+	border: 2px solid #dddddd;
+	text-align: center;
+}
+#tr1{
+	background-color: #60a878;
+	color: white;
+}
+.contact-form{
+	background: white;
+    margin: 30px 20px;
+    padding:20px;
+    border-radius: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input, textarea, select{
+	padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input:focus{
+	background-color: #a3cfb3;
+}
+.col{
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.col2{
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin-top: 40px;
+}
+.col3{
+	width: 33%;
+	float: left;
+	text-align: center;
+	margin-top: 40px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Website1.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body style="background-image: url(https://img.freepik.com/free-photo/abstract-blur-empty-green-gradient-studio-well-use-as-background-website-template-frame-business-report_1258-52616.jpg); background-repeat: no-repeat; background-size:cover; background-attachment:fixed;">
+	<header>
+	<h1>Contact Us</h1>
+	<a href="Website1-1.html"><strong>Home</a></strong>
+	<a href="Website1-2.html"><strong>History</a></strong>
+	<a href="Website1-3.html"><strong>National Dog Day</a></strong>
+	<a href="Website1-4.html"><strong>Contact Us</a></strong>
+	</header>
+	<div class="contact-form">
+	<h2>Get in Touch</h2>
+	<form action="Website1-1.html">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="First name - Last name"><br>
+                
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="xxx@gmail.com"><br>
+                
+        <label for="Interested Dogs">Interested Dogs:</label>
+        <input type="text" id="Interested Dogs" name="Interested Dogs"><br>
+
+        <label for="inquiry-type">Type of Inquiry:</label>
+            <select id="inquiry-type" name="inquiry-type">
+                <option value="">Select an option</option>
+                <option value="general">General Question</option>
+                <option value="adoption">Adoption Inquiry</option>
+                <option value="breeding">Breeding Inquiry</option>
+                <option value="care">Care Tips</option>
+            </select><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Write something..." style="height:100px"></textarea><br>
+                
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+        <label for="source">How did you hear about us?</label>
+            <select id="source" name="source">
+                <option value="source">Select an option</option>
+                <option value="social-media">Social Media</option>
+                <option value="search-engine">Search Engine</option>
+                <option value="friend">Friend</option>
+                <option value="other">Other</option>
+            </select><br>
+
+        <label>
+        <input type="checkbox" name="newsletter" value="subscribe">
+                    Subscribe to our newsletter
+        </label><br>
+		<input type="submit">
+    </form>
+	</div>
+</body>
+</html>
